@@ -105,7 +105,7 @@ Add a new restaurant under an owner.
 
 ---
 
-## **GET /api/owners/{ownerId}/restaurants**
+## **GET /api/owners/{ownerId}/restaurants** //Looks sketchy, Work in progress
 ### **Description:**
 View all restaurants managed by an owner.
 
