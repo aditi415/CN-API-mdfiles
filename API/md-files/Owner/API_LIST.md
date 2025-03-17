@@ -41,14 +41,15 @@ Create a new owner account.
 - **Body**:
   ```json
   {
-    "firstname": "Jay",
-    "lastname":"Desai",
-    "email":"jay@example.com",
-    "password": "securepassword"
+    "firstname": "string",
+    "lastname":"string",
+    "email":"sring",
+    "password": "string"
   }
   ```
 
 ### **Response:**
+-//Work in progress on further Use Case oriented scenarios 
 - **Status code**: `201 Created`
 - **Body**:
   ```json
