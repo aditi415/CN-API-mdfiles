@@ -49,7 +49,8 @@ Create a new owner account.
   ```
 
 ### **Response:**
--//Work in progress on further Use Case oriented scenarios 
+-//Work in progress on further Use Cases
+1. when user(s) do(es)n't give one of the required field of data
 - **Status code**: `201 Created`
 - **Body**:
   ```json
@@ -64,7 +65,19 @@ Create a new owner account.
 ## **GET /api/owners/{ownerId}**
 ### **Description:**
 Get owner details by ID.
-
+### **Request:**
+- **Method**: `POST`
+- **URL**: `/api/owners/{owenrId}`
+- **Body**:
+  ```json
+  {
+     "ownerId:alphaNumeric"
+    "firstname": "string",
+    "lastname":"string",
+    "email":"sring",
+    "password": "string"//Use case of wrong password 
+  }
+  ```
 ### **Response:**
 - **Status code**: `200 OK`
 - **Body**:
