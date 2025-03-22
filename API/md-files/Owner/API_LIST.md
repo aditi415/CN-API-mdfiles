@@ -50,15 +50,43 @@ Create a new owner account.
 
 ### **Response:**
 -//Work in progress on further Use Cases
-1. when user(s) do(es)n't give one of the required field of data
+-STANDARAD EXPECTED: 
 - **Status code**: `201 Created`
 - **Body**:
   ```json
   {
-    "ownerId": "12345",
+    "ownerId": "alphanumeric",
     "message": "Owner account created successfully"
   }
   ```
+
+1. when user(s) do(es)n't give one of the required field of data
+- **Status code**: `400 Bad Request`
+- **Body**:
+  ```json
+  {
+    "error": "Firstname and Lastname are expected"
+  }
+  ```
+2.
+- **Status code**: `400 Bad Request`
+- **Body**:
+  ```json
+  {
+    "error": "Firstname and Lastname are expected"
+  }
+  ```
+ 3.     
+ -**Status code**: `400 Bad Request`
+- **Body**:
+  ```json
+  {
+    "error": "Invalid email format"
+  }
+  ```
+
+
+
 
 ---
 
