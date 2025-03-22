@@ -68,26 +68,30 @@ Create a new owner account.
     "error": "Firstname and Lastname are expected"
   }
   ```
-2.
+2. When user gives a password less than 8 characters
 - **Status code**: `400 Bad Request`
 - **Body**:
   ```json
   {
-    "error": "Firstname and Lastname are expected"
+    "error": "Password must be atleast 8 characters"
   }
   ```
- 3.     
+ 3. When user doesnt provide correct email ID     
  -**Status code**: `400 Bad Request`
-- **Body**:
+ - **Body**:
   ```json
   {
     "error": "Invalid email format"
   }
-  ```
-
-
-
-
+   ```
+  4. Duplicate email/User already exists 
+  -**Status code**: `409 Conflict`
+ - **Body**:
+  ```json
+  {
+    "error": "Invalid email format"
+  }
+   ```
 ---
 
 ## **GET /api/owners/{ownerId}**
