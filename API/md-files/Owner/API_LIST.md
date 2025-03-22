@@ -60,7 +60,7 @@ Create a new owner account.
   }
   ```
 
-1. when user(s) do(es)n't give one of the required field of data
+1. when user doesn't give one of the required field of data
 - **Status code**: `400 Bad Request`
 - **Body**:
   ```json
