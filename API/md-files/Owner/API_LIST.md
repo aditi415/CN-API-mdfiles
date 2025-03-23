@@ -92,6 +92,16 @@ Create a new owner account.
     "error": "Invalid email format"
   }
    ```
+   5. Unexpected Server error 
+  -**Status code**: `500 Internal Server Error`
+ - **Body**:
+  ```json
+  {
+    "error": "Internal server error"
+  }
+   ```
+
+
 ---
 
 ## **GET /api/owners/{ownerId}**
