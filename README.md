@@ -1,2 +1,2 @@
 # Crowd-Management-Project
-Contains All the documents related to Project
+Contains all the documents related to Project
