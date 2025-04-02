@@ -117,7 +117,7 @@ Get owner details by ID.
     "firstname": "string",
     "lastname":"string",
     "email":"sring",
-    "password": "string"//Use case of wrong password 
+    "password": "string" //Use case of wrong password 
   }
   ```
 ### **Response:**
