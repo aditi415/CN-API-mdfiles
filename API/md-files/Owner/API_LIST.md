@@ -125,10 +125,12 @@ Get owner details by ID.
 - **Body**:
   ```json
   {
-    "ownerId": "12345",
-    "firstname": "Jay",
-    "lastname": "Desai",
-    "email": "jay@example.com"
+    "ownerId": "alphanumeric",
+    "firstname": "String",
+    "lastname": "String",
+    "email": "email",
+    "restaurs": "String",
+    "Address" : "Alphanumeric"
   }
   ```
 
@@ -142,6 +144,7 @@ Add a new restaurant under an owner.
 - **Body**:
   ```json
   {
+    "owner":"string(firstname)",
     "restaurantName": "The Great Indian Diner",
     "location": "Mumbai",
     "capacity": 100
