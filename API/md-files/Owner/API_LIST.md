@@ -145,8 +145,8 @@ Add a new restaurant under an owner.
   ```json
   {
     "owner":"string(firstname)",
-    "restaurantName": "The Great Indian Diner",
-    "location": "Mumbai",
+    "restaurantName": "String/Alphanumeric",
+    "location": "String(City, State)",
     "capacity": 100
   }
   ```
