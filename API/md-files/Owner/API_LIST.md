@@ -50,7 +50,7 @@ Create a new owner account.
 
 ### **Response:**
 -//Work in progress on further Use Cases
--STANDARAD EXPECTED: 
+-STANDARD EXPECTED: 
 - **Status code**: `201 Created`
 - **Body**:
   ```json
