@@ -1,5 +1,5 @@
 # Owner and Staff Modules
-## Owner
+## Owner APIs
 post-owner-details,
 get-owner-Id,
 post-restaurant-view,
@@ -7,7 +7,7 @@ get-restaurant-overview,
 post-authenticate-staff,
 get-staff-credntls
 
-## Staff 
+## Staff APIs
 post-staff-details,
 get-staff-details,
 
