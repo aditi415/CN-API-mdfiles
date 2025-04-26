@@ -14,7 +14,7 @@ get-staff-details,
 
 ## Owner and Staff API Documentation
 
-## Table of Contents
+### Table of Contents
 1. [Owner APIs](#owner-apis)
    - [Create Owner](#post-apiowners)
    - [Get Owner Details](#get-apiownersownerid)
