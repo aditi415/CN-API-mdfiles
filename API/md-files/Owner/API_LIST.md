@@ -8,7 +8,6 @@ get-restaurant-overview,
 post-authenticate-staff,
 get-staff-credntls
 
-
 ### Staff APIs
 post-staff-details,
 get-staff-details,
