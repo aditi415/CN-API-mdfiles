@@ -20,11 +20,9 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 */
 
 require("dotenv").config(); // Loads variables from .env
-
 const express = require("express"); // requires the express module
 const mongoose = require("mongoose"); // requires the mongoose module from mongo db
 const bodyParser = require("body-parser"); // body parser required for parsing
-
 const app = express(); // constant app for initializing Express module 
 app.use(bodyParser.json()); // using Body-parser to parse datatype of data in json 
 
