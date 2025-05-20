@@ -28,7 +28,7 @@ get-staff-details,
 ---
 
 # _Owner APIs_
-
+...
 ## **POST /api/owners**
 ### **Description:**
 Create a new owner account.
