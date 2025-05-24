@@ -19,7 +19,6 @@ app.use("/api/owners", require("../routes/owners"));
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 */
-
 require("dotenv").config(); // Loads variables from .env
 const express = require("express"); // requires the express module
 const mongoose = require("mongoose"); // requires the mongoose module from mongo db
